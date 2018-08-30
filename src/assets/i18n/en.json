@@ -1,0 +1,11 @@
+{
+  "1": "one",   "10": "ten",      "19": "nineteen",  "hundred": "hundred",
+  "2": "two",   "11": "eleven",   "20": "twenty-",    "thousand": "thousand",
+  "3": "three", "12": "twelve",   "30": "thirty-",    "million": "million",
+  "4": "four",  "13": "thirteen", "40": "forty-",     "billion": "billion",
+  "5": "fife",  "14": "fifteen",  "50": "fifty-",     "dot": ".",
+  "6": "six",   "15": "fifteen",  "60": "sixty-",     "dollars": "dollars",
+  "7": "seven", "16": "sixteen",  "70": "seventy-",   "cents": "cents",
+  "8": "eight", "17": "seventeen","80": "eighty-",
+  "9": "nine",  "18": "eighteen", "90": "ninety-"
+}

@@ -1,0 +1,9 @@
+<div class="form-group">
+  <input type="text" class="form-control" placeholder="Enter number value" #value>
+  <p *ngIf="err" class="error">{{err}}</p>
+  <p *ngIf="calculatedValue">{{calculatedValue | translate}}</p>
+  <button type="button" class="btn btn-primary" (click)="calculateValue(value)">Get value</button>
+  <br>
+  <button class="btn btn-primary" (click)="switchLanguage('en')">en</button>
+  <button class="btn btn-primary" (click)="switchLanguage('ukr')">ukr</button>
+</div>
