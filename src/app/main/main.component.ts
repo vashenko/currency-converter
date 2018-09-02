@@ -97,6 +97,7 @@ export class MainComponent implements OnInit {
     if (this.checkOnDot(sorted)) {
       const afterDot = sorted.splice(sorted.indexOf(this.map['dot']));
       afterDot.splice(afterDot.indexOf(this.map['dot']), 1);
+      if (afterDot[0] === '0' && afterDot[1] === '0') return "";
       if (afterDot.length > 2) {
         this.ifMoreThenTwo();
         return '';
